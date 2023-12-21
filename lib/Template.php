@@ -1,10 +1,10 @@
 <?php class Template{
-	// path to template
+	// Path to template
 	protected $template;
 	// vars passed in
 	protected $vars = array();
 
-	// constructor
+	// Constructor
 	public function __construct($template){
 		$this->template = $template;
 	}
