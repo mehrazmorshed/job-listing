@@ -8,4 +8,8 @@
 	public function __construct($template){
 		$this->template = $template;
 	}
+
+	public function __get($key){
+		return $this->vars[$key];
+	}
 }
