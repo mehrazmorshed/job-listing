@@ -1,4 +1,6 @@
 <?php
+// Config File
+require_once 'config.php';
 
 // Autoloader
 function __autoload($class_name){
